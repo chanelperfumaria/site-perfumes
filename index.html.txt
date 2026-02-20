@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Essenza Perfumes</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f5f5f5;
+color:#222;
+}
+
+header{
+background:#000;
+color:#fff;
+padding:18px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+height:60vh;
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url("https://images.unsplash.com/photo-1592945403244-b3fbafd7f539");
+background-size:cover;
+color:white;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.hero p{
+margin-bottom:20px;
+}
+
+.btn{
+background:#000;
+color:white;
+padding:12px 20px;
+border-radius:6px;
+text-decoration:none;
+}
+
+.produtos{
+padding:60px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.titulo{
+text-align:center;
+margin-bottom:40px;
+font-size:28px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+text-align:center;
+}
+
+.card img{
+width:100%;
+border-radius:8px;
+margin-bottom:10px;
+}
+
+.preco{
+font-weight:bold;
+margin:10px 0;
+}
+
+.sobre{
+background:white;
+padding:60px 20px;
+text-align:center;
+}
+
+footer{
+background:#000;
+color:white;
+padding:25px;
+text-align:center;
+margin-top:40px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 18px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">Essenza Perfumes</div>
+
+<nav>
+<a href="#">Início</a>
+<a href="#produtos">Produtos</a>
+<a href="#sobre">Sobre</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Perfumes Originais</h1>
+<p>Fragrâncias marcantes com os melhores preços</p>
+<a class="btn" href="#produtos">Ver produtos</a>
+</section>
+
+<section class="produtos" id="produtos">
+
+<h2 class="titulo">Mais vendidos</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://via.placeholder.com/300">
+<h3>212 VIP</h3>
+<p class="preco">R$ 399</p>
+<a class="btn" href="#">Comprar</a>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/300">
+<h3>Sauvage</h3>
+<p class="preco">R$ 520</p>
+<a class="btn" href="#">Comprar</a>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/300">
+<h3>La Vie Est Belle</h3>
+<p class="preco">R$ 430</p>
+<a class="btn" href="#">Comprar</a>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/300">
+<h3>1 Million</h3>
+<p class="preco">R$ 480</p>
+<a class="btn" href="#">Comprar</a>
+</div>
+
+</div>
+</section>
+
+<section class="sobre" id="sobre">
+<h2>Sobre nossa loja</h2>
+<p>
+Trabalhamos com perfumes importados e nacionais originais.
+Garantimos qualidade, procedência e entrega segura.
+</p>
+</section>
+
+<footer>
+<p>Instagram | WhatsApp</p>
+<p>© 2026 Essenza Perfumes</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/5562999999999">WhatsApp</a>
+
+</body>
+</html>
